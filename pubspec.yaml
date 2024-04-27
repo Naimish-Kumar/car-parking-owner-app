@@ -1,0 +1,114 @@
+name: owner
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: 
+  cloud_firestore: 
+  firebase_auth: 
+  firebase_core: 
+  firebase_messaging: 
+  firebase_storage:
+  country_code_picker: 
+  crypto: 
+  cupertino_icons:
+  dotted_border: 
+  geocoding: 
+
+  flutter_easyloading: 
+  flutter_email_sender:
+  flutter_html: 
+  flutter_local_notifications: 
+  flutter_svg:
+  geoflutterfire2: 
+  geolocator: 
+  location:
+  get: 
+  google_maps_flutter: 
+  google_sign_in: 
+  image_picker: 
+  intl:
+  pin_code_fields: 
+  place_picker: 
+  provider: 
+  qr_flutter: 
+  shared_preferences: 
+  sign_in_with_apple: 
+  syncfusion_flutter_datepicker: 
+  timer_count_down: 
+  url_launcher:
+  uuid: 
+  mobile_scanner: 
+  date_picker_timeline: 
+  flutter_rating_bar: 
+  flutter_share: 
+  flutterflow_paginate_firestore: 
+  flutter_polyline_points: 
+  clipboard: 
+  map_launcher: 
+
+  #payment dependency
+  flutter_stripe: 
+  mercadopago_sdk: 
+  flutterwave_standard: 
+  paytm_allinonesdk: 
+  razorpay_flutter: 
+  flutter_paypal_native: 
+  firebase_app_check: 
+
+dependency_overrides:
+  webview_flutter:
+  http: ^1.0.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: GolosText-Regular
+      fonts:
+        - asset: assets/fonts/GolosText-Regular.ttf
+
+    - family: GolosText-Medium
+      fonts:
+        - asset: assets/fonts/GolosText-Medium.ttf
+
+    - family: GolosText-Black
+      fonts:
+        - asset: assets/fonts/GolosText-Black.ttf
+
+    - family: GolosText-Bold
+      fonts:
+        - asset: assets/fonts/GolosText-Bold.ttf
+
+    - family: GolosText-ExtraBold
+      fonts:
+        - asset: assets/fonts/GolosText-ExtraBold.ttf
+
+    - family: GolosText-SemiBold
+      fonts:
+        - asset: assets/fonts/GolosText-SemiBold.ttf
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icon/
+    - assets/json/
+    - assets/fonts/
